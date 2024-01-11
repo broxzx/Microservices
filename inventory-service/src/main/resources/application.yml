@@ -7,6 +7,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create-drop
+  application:
+    name: inventory-service
 
 server:
   port: 8082
